@@ -103,6 +103,7 @@ git_key: d6f90b4be8axxxxxxxxxxxxxxx
 Dans votre directory example-role, faire un 
 ```shell script
    cp -r ../ansible-examples/library . 
+   cp -r ../ansible-examples/inventory_children .
 ```
 Tapez la commande suivante: 
 ``` ansible-playbook -i inventory_children playbook.yml```
